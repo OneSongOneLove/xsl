@@ -1,0 +1,138 @@
+/*顶部轮播图 B*/
+.lbt {
+    width: 965px;
+    height: 465px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.lbt .screen {
+    width: 965px;
+    height: 465px;
+    overflow: hidden;
+    position: relative;
+}
+.lbt ul {
+    width: 10000px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.lbt ul li {
+    float: left;
+}
+/*顶部轮播图 E*/
+
+/*产品分类 B*/
+.product {
+    width: 222px;
+    margin-left: 8px;
+    margin-right: 24px;
+}
+.product div img {
+    transition: all .5s;
+}
+.product div img:hover {
+    transform: scale(1.05,1.05);
+}
+.product .center_d {
+    height: 25px;
+    padding-top: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.product h2 {
+    font: 14px Arial;
+}
+.product .bottom_d p {
+    margin-top: 10px;
+    text-indent: 30px;
+    font: 12px/25px Arial;
+}
+.last_product {
+    margin-right: 0;
+}
+/*产品分类 E*/
+
+/*其他部分 B*/
+
+.other {
+    margin: 20px 0;
+    padding: 20px 0 30px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.other p {
+    margin: 5px 0;
+}
+.other p b {
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    background: url("../images/li.png") no-repeat;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.other a:hover {
+    color: red;
+}
+.other .first_p {
+    margin-top: 20px;
+}
+.other .software {
+    margin-left: 40px;
+}
+.other .icon {
+    margin-left: 95px;
+}
+.other .icon a {
+    width: 54px;
+    display: inline-block;
+    padding: 70px 0 10px 6px;
+    margin-right: 40px;
+    transition: all 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+.other .icon .icon_top a:hover {
+    transform: perspective(0px) rotateY(-360deg);
+}
+.other .icon .icon_bottom a:hover {
+    transform: perspective(0px) rotateY(360deg);
+}
+.other .icon .bp1 {
+    background: url("../images/bp1.png") no-repeat;
+}
+.other .icon .bp2 {
+    background: url("../images/bp2.png") no-repeat;
+}
+.other .icon .bp3 {
+    background: url("../images/bp3.png") no-repeat;
+}
+.other .icon .bp4 {
+    background: url("../images/bp4.png") no-repeat;
+}
+.other .icon .bp5 {
+    background: url("../images/bp5.png") no-repeat;
+}
+.other .icon .bp6 {
+    background: url("../images/bp6.png") no-repeat;
+}
+.other .icon .bp7 {
+    background: url("../images/bp7.png") no-repeat;
+}
+.other .icon .bp8 {
+    background: url("../images/bp8.png") no-repeat;
+}
+/*其他部分 E*/
+
+
+
+
+
+
+
+
+
+
+
+

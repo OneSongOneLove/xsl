@@ -1,0 +1,150 @@
+/*顶部轮播图 B*/
+.lbt {
+    width: 965px;
+    height: 245px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.lbt .screen {
+    width: 965px;
+    height: 245px;
+    overflow: hidden;
+    position: relative;
+}
+.lbt ul {
+    width: 10000px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.lbt ul li {
+    float: left;
+}
+/*顶部轮播图 E*/
+
+/*咨询导航 B*/
+.news_nav {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.sidebar {
+    width: 200px;
+    border: 1px solid #ccc;
+    margin-left: 6px;
+}
+.sidebar .top_bar {
+    height: 55px;
+    border-bottom: 1px solid #fff;
+    padding-left: 20px;
+}
+.sidebar .top_bar b {
+    float: left;
+    display: block;
+    height: 16px;
+    width: 5px;
+    background-color: yellowgreen;
+    margin-top: 20px;
+}
+.sidebar .top_bar h1 {
+    float: left;
+    font: 700 16px "microsoft yahei" ;
+    line-height: 55px;
+    padding-left: 10px;
+}
+.sidebar .bottom_bar {
+    padding: 30px 40px 30px 40px;
+}
+.sidebar .bottom_bar ul li {
+    border-bottom: 1px solid #ccc;
+    height: 35px;
+    line-height: 35px;
+    cursor: pointer;
+}
+.sidebar .bottom_bar ul li:hover {
+    color: orangered;
+}
+.sidebar .bottom_bar ul b {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../images/li.png");
+    vertical-align: middle;
+    margin-right: 20px;
+    transition: all 0.5s;
+}
+a:hover {
+    color: orangered;
+}
+.sidebar .bottom_bar li:hover b {
+    transform: rotate(90deg);
+}
+.sidebar_content {
+    width: 742px;
+    min-height: 300px;
+    margin-right: 8px;
+}
+.sidebar_content .content_Android{
+    line-height: 55px;
+    display: none;
+}
+.sidebar_content .content_iphone {
+    line-height: 55px;
+    display: none;
+}
+.selected {
+    display: block !important;
+}
+.sidebar_content b {
+    font: 100 14px "宋体";
+    margin-right: 10px;
+    margin-top: 18px;
+}
+.content_center {
+    margin-left: 10px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.sidebar_content .content_center b {
+    font-weight: 700;
+}
+.red {
+    color: red;
+}
+.content_Android .content_center>div {
+    margin-bottom: 50px;
+}
+.content_center h2 {
+    font: 400 20px/36px "microsoft yahei";
+    text-align: center;
+    margin-bottom: 50px;
+}
+.content_Android .content_center h3 {
+    font: 400 18px/36px "microsoft yahei";
+    text-align: center;
+}
+.content_Android .content_center p {
+    font: 400 18px/36px "microsoft yahei";
+    text-align: center;
+}
+.content_Android .content_center span {
+    font-weight: 700;
+}
+.content_Android .content_center .ewm {
+    width: 350px;
+    text-align: center;
+}
+.content_Android .content_center h4 {
+    font: 400 18px/36px "microsoft yahei";
+}
+.content_Android .content_center h5 {
+    font: 400 14px/36px "microsoft yahei";
+}
+.content_iphone .content_center {
+    line-height: 20px;
+}
+.content_iphone .content_center img {
+    border: 1px solid #000;
+    margin: 20px 10px;
+}
+/*咨询导航 E*/
